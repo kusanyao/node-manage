@@ -1,0 +1,21 @@
+extends ../base/layout_index
+
+block content
+    div.content
+        h1 titleasdfasdfasd
+        div.tab
+            a(href="/menu/edit" title="添加菜单") 添加菜单
+        table.list
+            thead
+                tr
+                    th.first_td
+                        input(type="checkbox")
+                    th ID
+                    th MENU
+            tbody
+                each item in list
+                    tr
+                        td
+                            input(type="checkbox")
+                        td #{item.id}
+                        td #{item.menu}

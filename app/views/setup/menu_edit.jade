@@ -1,0 +1,25 @@
+extends ../base/layout_index
+
+block content
+    div.content
+        h2 新增菜单
+        hr
+        form(action="" method="post").form
+            div.form-item
+                label 菜单名称
+                input(type="text" name="verify" placeholder="请填写菜单名称")
+            div.form-item
+                label 菜单类型
+                input(type="radio" name="type" value="1")
+                span.radio-txt 顶部菜单
+                input(type="radio" name="type" value="2" checked="checked")
+                span.radio-txt 侧边菜单
+            div.form-item
+                label 路由ID
+                input(type="text" name="verify" placeholder="请填写路由ID")
+            div.form-item
+                a.form-submit 确定
+                a.form-clean 清空
+
+
+        

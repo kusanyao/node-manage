@@ -1,0 +1,11 @@
+header
+    div.logo
+        img(src="/img/logo.png")
+    nav
+        ul
+            li
+                a(href="/") 首页
+            each item in topMenu
+                li
+                    a(href="/setup") #{item.menu}
+    div.user-bar {session.user.username}

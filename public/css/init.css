@@ -1,0 +1,223 @@
+/** 初始化标签样式 **/
+body,ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+
+
+/** 基本布局 **/
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bo
+	z-index: 1000;
+    width: 100%;
+    height: 50px;
+    background-color: #383838;
+}
+aside {
+	position: fixed;
+	top:50px;
+	float: left;
+	padding-top: 20px;
+	width: 200px;
+	height: 100%;
+	background-color: #2A2A2A;
+}
+.content{
+	margin-top: 50px;
+	margin-left: 200px;
+	padding: 20px;
+}
+.home{
+	color:#5f5959;
+	width:500px;
+	margin:200px auto;
+	
+	text-align: center;
+}
+.home h1{
+	font-size:60px;
+}
+.home p{
+	font-size: 14px;
+}
+/** 顶部菜单 **/
+nav{
+	float: left;
+}
+nav ul li{
+	float: left;
+	width: 80px;
+}
+nav ul li a{
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+nav ul li a:hover{
+	background-color: #ccc;
+}
+.logo{
+	float: left;
+	width: 200px;
+	height: 50px;
+}
+.logo img{
+	width: 200px;
+	height: 50px;
+}
+.user-bar{
+	float: right;
+	width: 100px;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+
+/** 侧边栏菜单 **/
+aside h3{
+	padding-left: 15px;
+	color: #FFF;
+}
+aside ul li a{
+	display: block;
+	padding-left: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+aside ul li a:hover{
+	background-color: #ccc;
+}
+
+/** 登录页面 **/
+.login-body{
+	background-color: #30333F;
+}
+.login-main{
+	margin: 150px auto;
+	padding:50 50px;
+	width: 400px;
+    height: 400px;
+    background-color: #fff;
+}
+.login-main form div{
+	margin-top: 10px;
+	height: 50px;
+}
+.login-main form div input{
+	width: 100%;
+	height: 40px;
+}
+.login-logo{
+	height: 80px;
+	background-color: #ccc;
+}
+
+/** 内容 **/
+.content .tab{
+	min-height: 50px;
+	margin-top: 5px;
+}
+/** 内容 **/
+.content h2{
+	color: #445566;
+	    font-size: 20px;
+	    font-weight: 400;
+}
+.content .tab a{
+	display: inline-block;
+	padding: 6px 16px;
+	font-size: 14px;
+	line-height: 18px;
+	background-color: #4bbd00;
+	text-align: center;
+	color: #edffd1;
+}
+.content .tab a:hover{
+	background-color: #4cdb00;
+}
+.content .list{
+	width: 100%;
+	text-align: left
+	display: table;
+}
+.content .list thead{
+	background-color: #404040;
+}
+.content .list th{
+	max-width: 50px;
+	text-align: left;
+	color: #ffffff;
+	font-weight: 400;
+}
+.first_td{
+	width: 15px;
+}
+.content .form{
+
+}
+
+/** 表单部分 **/
+.content .form .form-item{
+	height: 50px;
+}
+.content .form .form-item label{
+	min-width: 80px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #404040;
+	display: inline-block;
+}
+.content .form .form-item input[type=text]{
+	height: 30px;
+	width: 180px;
+}
+.content .form .form-item input[type=radio]{
+	
+}
+.content .form .form-item .radio-txt{
+	/*color: #ccc;*/
+	font-size: 14px;
+}
+.content .form .form-item .form-submit{
+	background-color: #CC3900;
+	display: inline-block;
+	min-width: 100px;
+	height: 25px;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0 5px 0 0;
+}
+.content .form .form-item .form-submit:hover{
+	background-color: #FF3900;
+	cursor:pointer;
+}
+.content .form .form-item .form-clean{
+	background-color: #4ccb00;
+	display: inline-block;
+	min-width: 100px;
+	height: 25px;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0 5px 0 0;
+}
+.content .form .form-item .form-clean:hover{
+	background-color: #4cdb00;
+	cursor:pointer;
+}

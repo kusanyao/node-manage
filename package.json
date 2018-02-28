@@ -1,0 +1,23 @@
+{
+  "name": "node-manage",
+  "version": "1.0.0",
+  "description": "lianshou node manage",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "node-manage"
+  ],
+  "author": "kusanyao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.34.0"
+  }
+}

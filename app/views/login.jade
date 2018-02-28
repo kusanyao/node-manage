@@ -1,0 +1,21 @@
+<!DOCTYPE>
+html
+    head
+        title 用户登陆
+        include ./base/link.jade
+    body.login-body
+        div.login-main
+            div.login-logo logo
+            form
+                div
+                    input(type="text" name="username" placeholder="请填用户名")
+                div
+                    input(type="password" name="password" placeholder="请填写密码")
+                div
+                    img(src="/")
+                div
+                    input(type="text" name="verify" placeholder="请填写验证码")
+                div
+                    input#login(type="button" name="verify" value="登录")
+                    span#message
+        include ./base/script.jade
